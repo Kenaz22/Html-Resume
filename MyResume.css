@@ -1,0 +1,87 @@
+@media (max-width: 575.98px) {
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+@media (min-width: 992px) {
+}
+body {
+background-color : #F8F8FF;
+display : flex;
+justify-content : center;
+align-content : center;
+font-family : Verdana, Verdana, Geneva, Tahoma, sans-serif;
+}
+.Container {
+position : relative;
+background-color : #F8F8FF;
+border-left : solid #F8F8FF;
+border-right : solid #F8F8FF;
+}
+.Container.top {
+position : relative;
+display : grid;
+grid-template-columns : 1fr 2fr;
+padding-bottom : 0;
+}
+.Container.top.ProfileText {
+position : relative;
+padding : 40rem;
+display : flex;
+align-items : center;
+}
+.Container.top.ProfileText h1 {
+font-size : 5em;
+letter-spacing : 0.2em;
+line-height : 1.5em;
+font-weight : 600;
+color : #000000;
+}
+.Container .top .ProfileText h1 span {
+position : relative;
+font-size : 0.8em;
+font-weight : 488;
+color : #333;
+}
+.Container.ContentBox {
+position : relative;
+min-height : 500rem;
+display : grid;
+grid-template-columns : 1fr 2fr;
+}
+.Container.ContentBox h3 {
+border-left : solid #FA8072;
+line-height : 1em;
+font-weight : 500;
+letter-spacing : 0.1em;
+}
+.Container.ContentBox ul {
+position : relative;
+}
+.Container.ContentBox ul li {
+list-style : none;
+line-height : 1em;
+cursor : pointer;
+display : flex;
+}
+.Container .ContentBox ul li ion-icon {
+font-size : 1.2em;
+color : #3590d2;
+}
+.Container.ContentBox ul .education li {
+flex-direction : column;
+margin : 25em;
+}
+h5 {
+color : #3590d2;
+font-weight : 600;
+}
+h4 {
+font-weight : 500;
+}
+.Projects {
+display : flex;
+flex-direction : column;
+}
+
